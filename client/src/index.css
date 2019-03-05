@@ -1,0 +1,38 @@
+body {
+  background: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App{
+  padding: 0px;
+  box-sizing: border-box;
+  width: 60%;
+  height: 100%;
+}
+
+.App h1 {
+  color: #444;
+  text-align: center;
+}
+
+.book-list {
+  padding: 0;
+}
+
+.book-list li{
+  display: inline-block;
+  margin: 12px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #3359DB;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+  cursor: pointer;
+  color: #3359DB;
+}
+
+
